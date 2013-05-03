@@ -2,7 +2,7 @@ Echoprint Codegen
 =================
 
 [Echoprint Codegen](https://github.com/echonest/echoprint-codegen) wrapper for node.
-It requires the echoprint-codegen binary is installed in order to work.
+It requires the echoprint-codegen binary installed in order to work.
 
 Usage
 -----
@@ -23,8 +23,6 @@ You can specify several options:
 * file — The path to the file. (required)
 * index — Where to start analyzing the sound (in seconds.) (defaults to 0)
 * offset — How many seconds of the sound should be analyzed. Required if index is set. (defaults to 0)
-
-i.e.
 
 ```javascript
 var options = {
