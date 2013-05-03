@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "underscore": "*",
+    "underscore.string": "*"
+  },
+  "name": "echoprint-codegen",
+  "version": "0.0.0",
+  "description": "Echoprint Codegen wrapper for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psirenny/node-echoprint-codegen.git"
+  },
+  "keywords": [
+    "node",
+    "echoprint",
+    "codegen"
+  ],
+  "author": "psirenny",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
