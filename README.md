@@ -10,7 +10,7 @@ Usage
 ```javascript
 var codegen = require('echoprint-codegen');
 
-codegen({file: '/path/to/file'}, function (err, data) {
+codegen('/path/to/file', function (err, data) {
   if (err) return console.error(err);
   console.log(data); // {"metadata":{...}, "code_count": 4098, "code": "eJzFn..."}
 });
@@ -25,13 +25,13 @@ You can specify several options:
 * offset — How many seconds of the sound should be analyzed. Required if index is set. (defaults to 0)
 
 ```javascript
-var options = {
-    file: '/path/to/file'
-  , index: 10
-  , offset: 30
+var opts = {
+  file: '/path/to/file',
+  index: 10,
+  offset: 30
 }
 
-speech(options, function (err, data) {
+codegen(opts, function (err, data) {
   if (err) return console.error(err);
   console.log(data);
 });

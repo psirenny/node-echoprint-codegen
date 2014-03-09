@@ -1,25 +1,24 @@
 {
-  "dependencies": {
-    "underscore": "*",
-    "underscore.string": "*"
+  "author": "psirenny <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/echoprint-codgen/issues"
   },
-  "name": "echoprint-codegen",
-  "version": "0.0.0",
   "description": "Echoprint Codegen wrapper for node",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/psirenny/node-echoprint-codegen.git"
-  },
   "keywords": [
     "node",
     "echoprint",
     "codegen"
   ],
-  "author": "psirenny",
-  "license": "BSD",
-  "readmeFilename": "README.md"
+  "license": "MIT",
+  "main": "index.js",
+  "name": "echoprint-codgen",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psirenny/echoprint-codgen.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.0"
 }
