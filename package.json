@@ -1,7 +1,7 @@
 {
   "author": "psirenny <djtorres0@gmail.com>",
   "bugs": {
-    "url": "https://github.com/psirenny/node-echoprint-codgen/issues"
+    "url": "https://github.com/psirenny/node-echoprint-codegen/issues"
   },
   "description": "Echoprint Codegen wrapper for node",
   "keywords": [
@@ -15,10 +15,10 @@
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git://github.com/psirenny/node-echoprint-codgen.git"
+    "url": "git://github.com/psirenny/node-echoprint-codegen.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
