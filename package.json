@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "echoprint-codgen",
+  "name": "echoprint-codegen",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
